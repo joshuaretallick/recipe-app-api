@@ -1,3 +1,5 @@
+"""Tests"""
+
 from django.test import SimpleTestCase
 
 from app import calc
@@ -15,4 +17,4 @@ class CalcTests(SimpleTestCase):
         """Tests the subtraction functionality."""
 
         difference = calc.subtract(10, 15)
-        self.assertEqual(difference, 5)  
+        self.assertEqual(difference, 5)
